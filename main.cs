@@ -1,21 +1,11 @@
-public class PrintExample{
-    public static void Main(String[]args){
-        int i,j,k,l,n;
-        Console.Write("Enter the Range : ")
-        n = int.Parse(Console.ReadLine());
-        for(i=1;i<=n;i++){
-            for(j=1;j<=n;j++){
-                Console.Write("");
-            }
-            for(k=1;k<=i;k++){
-                Console.Write(k);
-            }
-            for(i=1-1;l>=1;l--){
-                 Console.Write(l);   
-            
-            }
-            Console.Write("\n");      
-
-        }
+using System;
+class HelloWorld{
+    static void Main() {
+        Console.Write("Hello World");
+        Console.Write("How are you ?");
+        Console.WriteLine();
+        Console.WriteLine("Hello World");
+        Console.WriteLine("How are you? ");
+        
     }
 }
